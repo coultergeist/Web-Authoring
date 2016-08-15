@@ -1,0 +1,96 @@
+
+
+*{
+	margin:0;
+	padding:0;	
+}
+
+body {
+	background-color:black;	
+}
+
+div#wrapper, footer {
+	max-width:1280px;
+	width:80%;
+	margin:auto;
+	background-color:white;	
+	text-align:center;
+}
+
+header{
+	overflow:auto;	
+}
+
+h1 {
+	width:45%;
+	float:left;
+	text-align:left;
+}
+
+nav {
+	width:45%;
+	float:right;
+	text-align:right;
+}
+
+nav li {
+	display:inline-block;
+}
+
+nav li a {
+	display:block;
+	padding:1em;
+	text-decoration:none;
+	font-size:18px;
+	font-family:sans-serif;
+	color:black;
+}
+
+nav li a:hover {
+	display:block;
+	padding:1em;
+	background-color:black;
+	color:white;
+}
+
+/* The nav image box */
+figure {
+	margin: 0 0 20px 0;
+	position: relative;
+	width: 49%;
+	display:inline-block;
+}
+/* Text over the nav image box */
+
+figcaption {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: black;
+	color: white;
+	font-size:72px;
+	text-align:center;	
+	padding-top:30%;
+}
+
+figcaption {
+	display:none;	
+}
+
+figcaption:hover {
+	display:block;
+	
+}
+
+/* PHONE */
+@media all and (max-width:680px) {
+	div#wrapper, footer {
+		width:100%;
+	}
+	
+	figure {
+	display:block;
+	width:100%;	
+	}
+		
+}
