@@ -1,0 +1,59 @@
+<!-- inspiration site: http://alisharaf.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kerstin Graudins</title>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+    <link href='https://fonts.googleapis.com/css?family=Stardos+Stencil:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="js/scripts.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <header>
+      <h1>Kerstin Graudins</h1>
+      <nav>
+        <ul>
+          <li><a href="template.php">HOME</a></li>
+          <li><a href="work.php">WORK</a></li>
+          <li><a href="">PROFILE</a></li>
+          <li><a href="" >CONTACT</a></li>
+        </ul>
+      </nav>
+      </header>
+  <figure> <a href="work.php"><img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/></a>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+  <figure> <img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+  <figure> <img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+  <figure> <img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+  <figure> <img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+  <figure> <img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+  <figure> <img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+  <figure> <img src="images/adefoil.jpg" width="100%" height="100%" alt="ade on foil"/>
+    <figcaption>Blah this is the hover text</figcaption>
+  </figure>
+</div>
+
+<footer>
+footer goes here
+</footer>
+</body>
+</html>
